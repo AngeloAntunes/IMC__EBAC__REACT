@@ -1,0 +1,71 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo {
+  text-align: center;
+  padding: 24px;
+  color: var(--corSecundaria);
+}
+
+.form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px 24px;
+  background-color: var(--corPrincipal);
+  border-radius: 10px 0 0 10px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 200px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 8px;
+  color: var(--corSecundaria);
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #000;
+  padding-left: 8px;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid var(--corSecundaria);
+  color: var(--corSecundaria);
+  font-weight: bold;
+  background-color: var(--corBackground);
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  filter: brightness(2);
+}
+
+.resultado {
+  width: 100%;
+  border: 2px solid var(--corPrincipal);
+  border-top: none;
+  border-right: none;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 0 0 0 5px;
+}

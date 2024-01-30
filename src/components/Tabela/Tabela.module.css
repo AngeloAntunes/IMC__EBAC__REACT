@@ -1,0 +1,33 @@
+.tabela {
+  width: 400px;
+  margin-top: 3.9%;
+  border: 2px solid var(--corPrincipal);
+  border-top: none;
+  border-radius: 0 0 10px 0;
+}
+
+.subtitulo {
+  color: var(--corSecundaria);
+  font-weight: bold;
+  padding: 8px;
+  border: 2px solid var(--corPrincipal);
+  border-radius: 0 10px 0 0;
+}
+
+.colunaCabecalho {
+  background-color: var(--corPrincipal);
+  padding: 4px;
+}
+
+.linhaCorPrincipal,
+.linhaCorSecundaria {
+  text-align: center;
+}
+
+.linhaCorPrincipal {
+  background-color: var(--corLinhaPrincipal);
+}
+
+.linhaCorSecundaria {
+  background-color: var(--corLinhaSecundaria);
+}

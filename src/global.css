@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+:root {
+  --corPrincipal: #f9ca24;
+  --corSecundaria: #111;
+  --corBackground: #e7e7e7;
+  --corLinhaPrincipal: #e8e5d2;
+  --corLinhaSecundaria: #fef489;
+}
